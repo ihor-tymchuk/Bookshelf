@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300i');
+
+.Login {
+    font-family: "Lato", Helvetica Neue, sans-serif;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.Login input {
+    padding: 15px;
+    width: 150%;
+    
+}
+
+.Login input,.Login h2, .Login button {
+    margin-top: 15px;
+    
+}
+
+.Login div {
+    font-family: "Lato", Helvetica Neue, sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.Login h2{
+    font-size: 3em;
+}
+
+.Login h2:after {
+    content: "";
+    display: block;
+    width: 45px;
+    height: 3px;
+    background-color: #e0e721;
+    margin-top: 2px;
+}

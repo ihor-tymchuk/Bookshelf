@@ -1,0 +1,34 @@
+.TwoMenu {
+    background-color: rgba(17,24,54,.9);
+    
+}
+
+.TwoMenu div{
+    width: 100%;
+}
+
+
+.TwoMenu a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.TwoMenu a:hover{
+    color: rgb(251, 255, 35);
+    border-bottom: solid 1px  rgb(251, 255, 35);
+}
+
+.TwoMenu ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+}
+
+.TwoMenu li{
+    display: block;
+    margin: 10px;
+}
+
+
+

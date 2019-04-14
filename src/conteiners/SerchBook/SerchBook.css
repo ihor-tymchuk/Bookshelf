@@ -1,0 +1,11 @@
+.SerchBook {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.SerchBook input {
+    margin: 15px;
+    padding: 15px;
+}

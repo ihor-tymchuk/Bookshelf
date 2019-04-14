@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300i');
+
+.AddUser {
+    display: flex;
+    justify-content: center;
+}
+.AddUser > div{
+    max-width: 35%;
+    font-family: "Lato", Helvetica Neue, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+.AddUser input {
+    display: inline-block;
+    width: 90%;
+}
+
+.AddUser > div > div {
+    max-width: 90%;
+    /* background-color: rgb(37, 36, 36); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+    
+}
+
+.AddUser label{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.AddUser div input {
+    display: inline-block;
+    width: auto;
+}
+
+
+
+
+.AddUser h2, .AddUser input, .AddUser button {
+    padding: 15px;
+    margin: 10px;
+}
+
+.AddUser h2 {
+    font-size: 3em;
+}
+
+.AddUser h2:after {
+    content: "";
+    display: block;
+    width: 45px;
+    height: 3px;
+    background-color: #e0e721;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+

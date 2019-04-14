@@ -1,0 +1,14 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300i');
+
+body {
+
+    font-family: "Lato", Helvetica Neue, sans-serif;
+
+}

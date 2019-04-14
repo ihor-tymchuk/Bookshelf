@@ -1,0 +1,26 @@
+.Footer {
+    
+    width: 100%;
+    bottom: 0;
+    background-color:  #0b1536;
+    box-shadow: #142fcc;
+    padding: 0;
+    margin: 0;
+}
+
+.Footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Footer p {
+    display: block;
+    color: #999;
+}
+
+.Footer a {
+    text-decoration-line: none;
+}

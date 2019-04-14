@@ -1,0 +1,21 @@
+.AddBook { 
+    color: rgb(13, 13, 87);
+    width: 50%;
+    display: flex;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.AddBook input {
+    padding: 10px;
+    margin: 10px;
+}
+
+.AddBook button {
+    padding: 10px;
+    margin: 10px;
+    width: 130px;
+    background-color: rgb(219, 216, 11);
+    color: rgb(13, 13, 87);
+}

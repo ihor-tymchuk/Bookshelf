@@ -1,0 +1,35 @@
+.Error404 {
+    background-color: dodgerblue;
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.Error404 h1, .Error404 h3{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.Error404 div{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Error404 h2, .Error404 input, .Error404 button {
+    padding: 10px;
+    margin: 10px;
+}
+
+.Error404 a {
+    text-decoration: none;
+    
+}
+
+.Error404 button {
+    background-color: rgb(15, 39, 119);
+    color: rgb(255, 255, 255);
+    border-color: rgb(15, 39, 119);
+}

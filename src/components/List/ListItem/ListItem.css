@@ -1,0 +1,32 @@
+.ListItem {
+    display: flex;
+    width: 50%;
+    /* flex-wrap: wrap; */
+}
+
+.ListItem div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid #2b90b8;
+    width: 20px;
+    height: auto;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    background-color: #2b90b8;
+    color: #0b1536;
+    font-size: 1.3em;
+    flex-grow: 1;
+}
+
+.ListItem li{
+    border: 2px solid rgb(19, 34, 63);
+    background-color: rgb(19, 34, 63);
+    color: #ffffff;
+    list-style: none;
+    padding: 10px;
+    margin: 10px 10px 10px 0px;
+    width: 90%;
+    flex-grow: 40;
+}
+
